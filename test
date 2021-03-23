@@ -6,6 +6,6 @@ height = [10,20,30,40,50]
 np_weight = np.array(weight)
 np_height = np.array(height)
 
-bmi = np.weight * np_height 
+bmi = np_weight * np_height
 
 print(bmi)
