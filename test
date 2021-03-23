@@ -1,0 +1,11 @@
+import numpy as np
+
+weight = [1,2,3,4,5]
+height = [10,20,30,40,50]
+
+np_weight = np.array(weight)
+np_height = np.array(height)
+
+bmi = np.weight * np_height 
+
+print(bmi)
